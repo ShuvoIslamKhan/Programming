@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   int num1, num2;
-  char op;
+  char op; //operation
   cout << "Enter first number: ";
   cin >> num1;
   cout << "Enter operator: ";
@@ -20,7 +20,7 @@ int main() {
       result = num1 * num2;
   } else if(op == '/'){
       result = num1 / num2;
-  } else {
+  } else{
     cout << "Invalid operator!";
   }
   cout << result;
